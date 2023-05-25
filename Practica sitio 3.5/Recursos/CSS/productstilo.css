@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.productospd{
+    width: 100%;
+    margin: auto;
+}
+
+.productospd img{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    padding: 1% 5%;
+
+}
+.subtitulo{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin: auto;
+}
+
+.subtitulo h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5vw;
+    text-align: center;
+    color: rgb(54, 255, 36);
+}
+
+.subtitulo hr{
+    margin-top: 0.5%;
+    color: #26ff00;
+}
+ 
+.filapro {
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.columnapro{
+    width: 49.9999%;
+    float: left;
+    padding: 3%;
+    margin: auto;
+}
+.galeriapro{
+    max-width: 100%;
+    padding: 5%;
+    background-color: #8e37ff;
+}
+.galeriapro img{
+    width: 60%;
+    height: auto;
+    margin: 5% 10%;
+}
+.galeriapro:hover{
+    background-color: #dcff2f;
+    text-align: center;
+}
+.descpro p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5fffa;
+}
+
+.compra
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+.compra-imagen
+{
+	width: 100%;
+}
+.compra-imagen img
+{
+	width: 100%;
+	height: 500px;
+}
+.compra
+{
+	display: inline-block;
+	margin-top: 50px;
+}
+.comprar input[type="submit"]
+{
+	background-color: #06F;
+	color: rgb(221, 23, 23);
+	display: inline-block;
+	margin-left: 18px;
+	margin-bottom: 10px;
+	padding: 8px 20px;
+	border: none;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 18px;
+	border-radius: 10px;
+}
+.comprar input[type="submit"]:hover
+{
+	background-color: #03F;
+	cursor: pointer;
+}
+

@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .texto{
+       
+        margin-top: 15px;
+        border: 1px solid rgb(255, 0, 0);
+        border-radius: 20px 20px 20px 30px;
+        background-color: azure;
+        opacity: 0.7;
+    }
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.2 em;
+        background-image: url("../Imagenes/1313893.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .encabezado{
+        width: 100%;
+        height: auto;
+    }
+    .encabezado h1 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /*font-size: 48;*/
+        /*Para que la letra se vuelva responsiva*/
+        /*viewport (1vw 1% es igual al 1% del tamaño de la ventana) tamaño del navegador*/
+        font-size: 5vw;
+        color: #ffffff;
+        text-align: center;
+        padding: 2% 3%;
+        }
+        .encabezado img{
+            width: 100%;
+            float: right;
+        }
+        .encabezado nav{
+           width: 100%;
+           /*margin-top 15%*/
+           /*Desbordamiento*/
+            overflow: hidden;
+            background-color: #bf00ff;
+        }
+        .encabezado a{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            color: #000000;
+            float: right;
+            padding: 22px 16px;
+            text-decoration: none;
+        }
+        /*Color al seleccionar texto*/
+        .encabezado a:hover{
+            background-color: #ff4901;
+        }
+        .clearfix::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .banner{
+            max-width: 100%;
+            margin: 1% 3%;
+        }
+        .banner img{
+            width: 100%;
+            height: 200px;
+        }
+        .fila{
+            width: 100%;
+            height: 25%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .columna{
+            width: 26.9999%;
+            float: left;
+            padding: 1.5%;
+            margin: auto;
+            text-align: center;
+        }
+        .galeria{
+            max-width: 100%;
+            padding: 5%;
+            background-color: #ff5454;
+            
+        }
+        .galeria img{
+            width: 100%;
+            
+        }
+        .galeria:hover{
+            background-color: #5dff44;
+            
+        }
+        .desc p{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #f5fffa;
+        }  
+        .form_sesion{
+            width: 100%;
+            margin: auto;
+        }
+        
+        .form_sesion form{
+            width: 50%;
+            margin: 3% auto;
+            text-align: center;
+            background-color: rgb(240, 240, 235);
+            border-radius: 2px;
+            padding: 3% 6%;
+        }
+        
+        .form_sesion input{
+            width: 100%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 1.2vw;
+            border: 1px solid;
+            border-radius: 2px;
+            padding: 2.5%;
+            border-style: outset;
+        }
+        
+        .form_sesion input:hover{
+            border: 2px solid rgb(231, 187, 10);
+        }
+        
+        .form_sesion #enviar{
+            width: 100%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 1.2vw;
+            padding: 3%;
+            border: none;
+            border-radius: 4px;
+            background-color: rgb(21, 21, 255);
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        
+        .form_sesion #enviar:hover{
+            color: rgb(255, 0, 0);
+            background-color: rgb(194, 194, 240);;
+        }
+        
+        .form_sesion h2{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 1.5vw;
+            color: rgb(0, 0, 0);
+        }
+        
+        .form_sesion hr{
+            margin-top: 2%;
+            margin-bottom: 12%;
+        }
+        
+        .form_sesion textarea{
+            width: 100%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 1.2vw;
+            border: 1px solid;
+            border-radius: 2px;
+            padding: 2.5%;
+            border-style: outset;
+        }
+        
